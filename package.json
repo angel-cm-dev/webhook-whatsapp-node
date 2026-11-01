@@ -1,0 +1,18 @@
+{
+  "name": "webhook-whatsapp-node",
+  "version": "1.0.0",
+  "description": "Receptor de webhooks de WhatsApp Cloud API en Node.js sin dependencias: verificación, firma HMAC y parseo de mensajes.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "keywords": ["whatsapp", "webhook", "cloud-api", "meta", "hmac", "nodejs"],
+  "author": "Angel Castañeda Meza (https://github.com/angel-cm-dev)",
+  "license": "MIT"
+}
